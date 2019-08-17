@@ -1,9 +1,140 @@
 body {
-  /* background-image: url("../Images/background_0.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
   background-color: #cccccc;
-
 }
+
+/* .glue {
+  border-color: red;
+  border-style: dotted;
+  height: 200px;
+  width: 100%;
+  left: 50%;
+  position: absolute;
+} */
 
 .nav {
-  
+  height: 18%; /* Background bar */
+  background-color: #262626; /* TO-DO: Remove when done */
+  width: 100%;
+  text-align: center;
+  position: relative;
 }
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  height: 80%;
+}
+
+.nav ul li {
+  float: none;
+  display: inline-block;
+  /* margin-top: 1%; */
+}
+
+.nav ul li a {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 22px;
+  color: #8c8c8c;
+  text-decoration: none;
+  display: block;
+  padding: 30px 32px;
+  /* border-style: dashed; */
+}
+
+.nav ul li a:hover {
+  color: #d9d9d9;
+}
+
+/* ---------------------------------------------- */
+
+.nav ul li:nth-child(1) {
+  float: left;
+  margin-left: 21.5%;
+  border-right: 1px solid #1a1a1a;
+}
+.nav ul li:nth-child(2) {
+  float: left;
+  border-right: 1px solid #1a1a1a;
+}
+.nav ul li:nth-child(3) {
+  float: left;
+}
+
+.nav ul li:nth-child(7) {
+  margin-right: 21.5%;
+  border-left: 1px solid #1a1a1a;
+}
+
+.nav ul li:nth-child(6) {
+  border-left: 1px solid #1a1a1a;
+}
+
+/* ---------------------------------------------- */
+
+#main_menu {
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.logo_area {
+  width: 442px;
+  position: absolute;
+  left: 45.65%;
+  top: 0;
+  content: "";
+  margin-left: -150px;
+  /* border-style: solid; */
+}
+
+
+
+
+/* Font Testing */
+/* .Simonetta {
+  font-family: 'Simonetta', cursive;
+}
+.Elsie {
+  font-family: 'Elsie', cursive;
+}
+.Kranky {
+  font-family: 'Kranky', cursive;
+}
+.CherrySwash {
+  font-family: 'Cherry Swash', cursive;
+}
+.ArimaMadurai {
+  font-family: 'Arima Madurai', cursive;
+}
+.Cinzel {
+  font-family: 'Cinzel Decorative', cursive;
+} */
+/* .Comfortaa {
+  font-family: 'Comfortaa', cursive;
+}
+.Butterfly {
+  font-family: 'Butterfly Kids', cursive;
+}
+.Delius {
+  font-family: 'Delius Unicase', cursive;
+}
+.Euphoria {
+  font-family: 'Euphoria Script', cursive;
+}
+.Allura {
+  font-family: 'Allura', cursive;
+}
+.BadScript {
+  font-family: 'Bad Script', cursive;
+}
+
+p {
+  font-size: 50px;
+} */
